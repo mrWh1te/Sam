@@ -1,0 +1,31 @@
+{
+  "name": "sam",
+  "version": "0.0.1",
+  "description": "SAM: Social Automation Manager",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "tsc && cp src/site/index.html build/site/index.html && electron ."
+  },
+  "keywords": [
+    "Electron",
+    "Puppeteer",
+    "TypeScript",
+    "Botmation"
+  ],
+  "author": "Michael Lage",
+  "dependencies": {
+    "botmation": "^1.0.3",
+    "puppeteer": "^1.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.0",
+    "@types/puppeteer": "^2.0.1",
+    "electron": "^5.0.5"
+  },
+  "build": {
+    "extraResources": "node_modules",
+    "files": [
+      "!node_modules"
+    ]
+  }
+}
