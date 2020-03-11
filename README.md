@@ -1,19 +1,20 @@
 # S.A.M.
 
-Social Automation Manager
+<img src="https://raw.githubusercontent.com/mrWh1te/Sam/master/assets/top-secret.jpg" align="right" alt="Top-Secret" width="300">
 
-POC
+### Social Automation Manager
 
 Done
- - minimal Electron application
- - Puppeteer using own Chrome instance
- - Botmation running (taking screenshots)
+ - minimal Electron application POC
  - TypeScript support
- - POC index.html using bot.js to react to button click to scrape example.com & screenshot it
+ - Puppeteer running with Electron using separate Chrome instance
+ - minimal index.html website with bot.ts to handle button click by scraping example.com
+ - Botmation running (takes screenshots)
 
 Working On
  - App GUI Architecture (Angular?)
  - NodeJS Architecture for Puppeteer code (ie Injectable service wraps the puppeteer page, and perhaps config options)
+ - Database
 
 ### Notes
 
