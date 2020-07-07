@@ -20,7 +20,7 @@
   "devDependencies": {
     "@types/node": "^13.9.0",
     "@types/puppeteer": "^2.0.1",
-    "electron": "^5.0.5"
+    "electron": "^7.2.4"
   },
   "build": {
     "extraResources": "node_modules",
